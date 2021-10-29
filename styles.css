@@ -214,6 +214,26 @@ template {
   /* border: 4px solid red; */
   background-color: #FFFFFF;
   margin: 2%;
-  border-radius: 0.5px; 
+  border-radius: 0.5px;
   box-shadow: 2px 2px 1px #C7C7C7;
+}
+
+.fa-share-alt {
+  color: #FFFFFF;
+}
+
+.fa-list-ul {
+  color: #2B8ABC;
+}
+
+.fa-caret-down {
+  color: #2B8ABC;
+}
+
+.fa-user {
+  color: #2B8ABC;
+}
+
+.fa-user-circle {
+  color: #FFFFFF;
 }
