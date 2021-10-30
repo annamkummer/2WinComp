@@ -183,31 +183,27 @@ template {
 */
 
 .aku-html {
-  /* border: 4px solid black; */
 }
 
 .aku-body {
-  /* border: 4px solid green; */
   height: 100vh;
   background-color: #EFEFEF;
   font-family: 'Lato', sans-serif;
 }
 
 .aku-nav {
-  /* border: 4px solid purple; */
-  height: 15%;
+  height: 20%;
   background-color: #2B2B2B;
   display: flex;
   justify-content: space-between;
 }
 
 .nav-left {
-  /* border: 1px solid orange; */
   width: 50%;
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: flex-end;
-  padding: 0% 0% 3% 2%;
+  padding: 0% 0% 3% 3%;
+  font-size: 105%;
 }
 
 .left {
@@ -216,18 +212,31 @@ template {
 
 .nav-right {
   width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .right {
-  border: 1px solid red;
   height: 49%;
   display: flex;
-  justify-content: center;
+}
+
+.top {
+  margin-right: 10%;
+  font-size: 90%;
 }
 
 .bottom {
+  margin-right: 6%;
   font-weight: bold;
-  font-size: 300%;
+  font-size: 325%;
+}
+
+.top, .bottom {
+  height: 30%;
+  justify-content: right;
+  align-items: center;
 }
 
 .aku-h1 {
@@ -235,7 +244,6 @@ template {
 }
 
 .aku-main {
-  /* border: 4px solid orange; */
   height: 75%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -243,7 +251,6 @@ template {
 }
 
 .aku-article {
-  /* border: 4px solid red; */
   background-color: #FFFFFF;
   margin: 2%;
   border-radius: 0.5px;
@@ -257,11 +264,13 @@ template {
 
 .fa-list-ul {
   color: #2B8ABC;
-  margin: 0% 2% 0% 0%;
+  margin: 0% 3% 0% 0%;
 }
 
 .fa-caret-down {
   color: #2B8ABC;
+  margin-left: 4%;
+  font-size: 175%;
 }
 
 .fa-user {
@@ -271,16 +280,21 @@ template {
 
 .fa-user-circle {
   color: #B3B3B3;
+  margin-right: 4%;
+  font-size: 175%;
 }
 
 .nav-white {
   color: #F9F9F9;
+}
+
+.nav-shares {
   margin: 0% 6% 0% 0%;
 }
 
 .nav-gray {
   color: #959595;
-  margin: 0% 6% 0% 0%;
+  margin: 0% 10% 0% 0%;
 }
 
 .nav-blue {
@@ -293,4 +307,5 @@ template {
 
 .fa-google-wallet {
   transform: rotate(270deg);
+  height: 80%;
 }
