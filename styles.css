@@ -182,9 +182,6 @@ template {
    ==========================================================================
 */
 
-.aku-html {
-}
-
 .aku-body {
   height: 100vh;
   background-color: #EFEFEF;
@@ -243,38 +240,24 @@ template {
   color: #545454;
 }
 
-.aku-main {
-  height: 75%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-}
-
-.aku-article {
-  background-color: #FFFFFF;
-  margin: 2%;
-  border-radius: 0.5px;
-  box-shadow: 2px 2px 1px #C7C7C7;
-}
-
 .fa-share-alt {
   color: #B3B3B3;
   margin: 0% 2% 0% 0%;
 }
 
 .fa-list-ul {
-  color: #2B8ABC;
+  color: #41BDFD;
   margin: 0% 3% 0% 0%;
 }
 
 .fa-caret-down {
-  color: #2B8ABC;
+  color: #41BDFD;
   margin-left: 4%;
   font-size: 175%;
 }
 
 .fa-user {
-  color: #2B8ABC;
+  color: #41BDFD;
   margin: 0% 2% 0% 0%;
 }
 
@@ -298,7 +281,7 @@ template {
 }
 
 .nav-blue {
-  color: #2B8ABC;
+  color: #41BDFD;
 }
 
 .win {
@@ -308,4 +291,70 @@ template {
 .fa-google-wallet {
   transform: rotate(270deg);
   height: 80%;
+}
+
+/*
+===================
+*/
+
+.aku-main {
+  height: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.share-card {
+  background-color: #FFFFFF;
+  margin: 2%;
+  border-radius: 0.5px;
+  box-shadow: 2px 2px 1px #C7C7C7;
+}
+
+.card-header {
+  position: relative;
+  height: 35%;
+  background-color: #545454;
+}
+
+.header-img {
+  position: absolute;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.fa-share {
+  position: absolute;
+  top: 22%;
+  left: 11%;
+  color: #4D4D4D;
+  font-size: 150%;
+}
+
+.fa-circle {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #FFFFFF;
+  font-size: 300%;
+}
+
+.views {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  color: #FFFFFF;
+  font-size: 50%;
+  margin: 2% 0% 0% 0%;
+}
+
+.a02 {
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  color: #FFFFFF;
+  font-size: 150%;
+  font-weight: 400;
+  margin: 5% 0% 0% 0%;
 }
