@@ -247,6 +247,7 @@ template {
   height: 75%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   justify-content: center;
 }
 
@@ -255,6 +256,8 @@ template {
   margin: 2%;
   border-radius: 0.5px;
   box-shadow: 2px 2px 1px #C7C7C7;
+  display: flex;
+  flex-direction: column;
 }
 
 .fa-share-alt {
@@ -263,18 +266,18 @@ template {
 }
 
 .fa-list-ul {
-  color: #2B8ABC;
+  color: #41BDFD;
   margin: 0% 3% 0% 0%;
 }
 
 .fa-caret-down {
-  color: #2B8ABC;
+  color: #41BDFD;
   margin-left: 4%;
   font-size: 175%;
 }
 
 .fa-user {
-  color: #2B8ABC;
+  color: #41BDFD;
   margin: 0% 2% 0% 0%;
 }
 
@@ -282,6 +285,22 @@ template {
   color: #B3B3B3;
   margin-right: 4%;
   font-size: 175%;
+}
+
+.fa-share {
+  color: #2B2B2B;
+  /* position: absolute;
+  top: 0;
+  left: 1; */
+  font-size: 175%;
+}
+
+.fa-circle {
+  font-size: 300%;
+  color: #FFFFFF;
+  position: absolute;
+  top: 1;
+  left: 2;
 }
 
 .nav-white {
@@ -298,7 +317,7 @@ template {
 }
 
 .nav-blue {
-  color: #2B8ABC;
+  color: #41BDFD;
 }
 
 .win {
@@ -308,4 +327,85 @@ template {
 .fa-google-wallet {
   transform: rotate(270deg);
   height: 80%;
+}
+
+
+img {
+  /* height: 35%; */
+  width: 100%;
+  opacity: 0.4;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.line-3, .line-6, .line-7, .line-8 {
+  color: #5F5F5F;
+  margin: 0% 0% 0% 0%;
+}
+
+.line-4 {
+  color: #A6A6A6;
+  margin: 0% 0% 0% 0%;
+}
+
+.line-5 {
+  color: #969696;
+  margin: 0% 0% 0% 0%;
+}
+
+.line-9 {
+  color: #41BDFD;
+  font-size: 200%;
+  margin: 0% 0% 0% 0%;
+}
+
+.card-top {
+  position: relative;
+}
+
+.card-content {
+  padding: 4% 5% 7% 5%;
+}
+
+.grid-2 {
+  background-color: #2B2B2B;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  height: 35%;
+  background-color: #2B2B2B;
+  /* overflow: hidden; */
+}
+
+.header-left {
+  position: relative;
+  top: 1;
+  left: 2;
+}
+
+.header-right {
+  position: relative;
+  left: 0;
+  right: 2;
+  margin: 3%;
+}
+
+.test-img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.line-1, .line-2 {
+  color: #FFFFFF
+}
+
+.line-1 {
+  font-size: 50%;
+}
+
+.line-2 {
+  font-size: 50%;
 }
