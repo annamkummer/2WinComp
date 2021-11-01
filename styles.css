@@ -298,6 +298,7 @@ template {
 */
 
 .aku-main {
+  height: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -307,7 +308,6 @@ template {
 .share-card {
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
   margin: 2%;
   border-radius: 0.5px;
   box-shadow: 2px 2px 1px #C7C7C7;
@@ -362,7 +362,6 @@ template {
 }
 
 .card-content {
-  border: 2px solid red;
   height: 65%;
   background-color: #FFFFFF;
   padding: 3%;
