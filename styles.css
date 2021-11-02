@@ -298,15 +298,16 @@ template {
 */
 
 .aku-main {
-  height: 75%;
+  height: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
 }
 
 .share-card {
-  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
   margin: 2%;
   border-radius: 0.5px;
   box-shadow: 2px 2px 1px #C7C7C7;
@@ -320,6 +321,7 @@ template {
 
 .header-img {
   position: absolute;
+  max-height: 100%;
   width: 100%;
   opacity: 0.4;
 }
@@ -356,5 +358,54 @@ template {
   color: #FFFFFF;
   font-size: 150%;
   font-weight: 400;
+  margin: 5% 0% 0% 0%;
+}
+
+.card-content {
+  height: 65%;
+  background-color: #FFFFFF;
+  padding: 3%;
+}
+
+.name, .date, .url, .playlist, .playlist-name, .attach, .a04 {
+  margin: 0;
+}
+
+.name, .playlist, .playlist-name, .attach {
+  color: #5D5D5D;
+}
+
+.name, .playlist-name {
+  font-size: 100%;
+}
+
+.playlist, .attach {
+  font-size: 50%;
+}
+
+.date {
+  color: #A5A4A8;
+  font-size: 50%;
+}
+
+.url {
+  color: #A3A3A3;
+  background-color: #EFEFEF;
+  padding: 3%;
+  word-wrap: break-word;
+  margin: 5% 0% 5% 0%;
+}
+
+.a04 {
+  color: #41BDFD;
+  font-size: 150%;
+  font-weight: 400;
+}
+
+.name {
+  margin: 2% 0% 0% 0%;
+}
+
+.attach {
   margin: 5% 0% 0% 0%;
 }
