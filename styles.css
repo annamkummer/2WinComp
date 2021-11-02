@@ -315,15 +315,16 @@ template {
 
 .card-header {
   position: relative;
-  height: 35%;
+  /* height: 35%; */
   background-color: #545454;
 }
 
 .header-img {
-  position: absolute;
-  max-height: 100%;
+  /* position: absolute; */
+  height: 200px;
   width: 100%;
   opacity: 0.4;
+  object-fit: cover;
 }
 
 .fa-share {
